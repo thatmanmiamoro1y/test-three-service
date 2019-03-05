@@ -14,7 +14,7 @@
     <groupId>com.thatman</groupId>
     <artifactId>test-three-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>test-three-service-</name>
+    <name>test-three-service</name>
     <description>测试服务</description>
 
 

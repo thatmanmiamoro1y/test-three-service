@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Component
-@FeignClient(name = "test-two-service",fallback = TestServiceTwoClientFallback.class)
-public interface TestServiceTwoClient {
+@FeignClient(name = "test-one-service",fallback = TestServiceOneClientFallback.class)
+public interface TestServiceOneClient {
 
     @GetMapping(value ="test/getUser")
     User getUser();
