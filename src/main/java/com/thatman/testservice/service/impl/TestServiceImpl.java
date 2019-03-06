@@ -27,7 +27,8 @@ public class TestServiceImpl implements TestService , ApplicationListener<WebSer
         System.out.println("--------->>>test-service-two:port:"+port);
         System.out.println("------------------->>"+this.userName);
         System.out.println("------------------->>"+this.userPassword);
-        return testServiceOneClient.getUser();
+        return null;
+//        return testServiceOneClient.getUser();
     }
 
     @Override
